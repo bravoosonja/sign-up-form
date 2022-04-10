@@ -1,0 +1,45 @@
+/* css reset */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 3vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  flex-grow: 0.5;
+}
+
+.left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right {
+  flex-grow: 1.5;
+  padding: 2em;
+}
+
+.form {
+  font-size: 2.5vh;
+  margin-top: 2.5em;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+}
+
+input {
+  margin-left: 0.5em;
+}
