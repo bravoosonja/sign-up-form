@@ -1,45 +1,112 @@
 /* css reset */
-body {
+* {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 3vh;
   font-family: "Raleway", sans-serif;
 }
 
-.container {
+body {
+  background-color: #f8edeb;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: 100vw;
   height: 100vh;
 }
 
-.left {
-  flex-grow: 0.5;
+img {
+  width: 45vw;
 }
 
-.left img {
-  max-width: 100%;
-  max-height: 100%;
+/* doesn't work  */
+.company-name {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 60%;
+  position: relative;
+  top: 20vh;
+  gap: 1vw;
+  padding: 15px 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .right {
-  flex-grow: 1.5;
-  padding: 2em;
+  width: 55vw;
+  height: 100vh;
 }
 
-.form {
+.text {
+  padding: 1.8em;
   font-size: 2.5vh;
-  margin-top: 2.5em;
+  width: 83%;
 }
 
-label {
+.form-container {
+  background-color: #f8f9fa;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2em 2em;
+  font-size: 2.5vh;
+}
+
+form {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  text-align: right;
+  flex-flow: row wrap;
+  gap: 50px;
+  align-items: space-evenly;
+  padding-top: 1em;
+  background-color: #f8f9fa;
+}
+
+.input-container {
+  font-size: 1.7vh;
+  width: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  text-transform: uppercase;
+  background-color: #f8f9fa;
 }
 
 input {
-  margin-left: 0.5em;
+  margin-top: 0.3em;
+  font-size: 1.7vh;
+  border: 1px solid #dadce0;
+  border-radius: 7px;
+  padding: 0.5rem;
+  outline: none;
+  background: none;
+  background-color: #f8f9fa;
+}
+
+.bottom-container {
+  padding: 2em;
+}
+
+button {
+  background-color: #f4acb7;
+  color: white;
+  font-weight: 600;
+  font-size: 2vh;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+button:hover {
+  background-color: #f28482;
+}
+.login {
+  font-size: 2vh;
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #f4acb7;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #f28482;
+  text-decoration: underline;
 }

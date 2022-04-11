@@ -16,7 +16,11 @@
   <body>
     <div class="container">
       <div class="left">
-        <img src="welcome.jpg" />
+        <img src="welcome.jpg">
+          <!-- <div class="company-name">
+            <h1>Imaginary Service</h1>
+          </div> -->
+        </div>
       </div>
       <div class="right">
         <div class="text">
@@ -28,25 +32,41 @@
           </p>
           <br />
           <p>You know you want to.</p>
-          <div class="form">
-            <h3>Let's do this!</h3>
+        </div>
+        <div class="form-container">
+          <h5>Let's do this!</h5>
 
-            <form action="#" method="post">
+          <form action="#" method="post">
+            <div class="input-container">
               <label for="firstName">First Name</label>
               <input type="text" id="firstName" />
+            </div>
+            <div class="input-container">
               <label for="lastName">Last Name</label>
               <input type="text" id="lastName" />
-              <br />
+            </div>
+            <div class="input-container">
               <label for="email">Email</label>
               <input type="email" id="email" />
+            </div>
+            <div class="input-container">
               <label for="phoneNumber">Phone Number</label>
-              <input type="number" id="phoneNumber" />
-              <br />
+              <input type="text" id="phoneNumber" />
+            </div>
+            <div class="input-container">
               <label for="password">Password</label>
               <input type="password" id="password" />
+            </div>
+            <div class="input-container">
               <label for="confirmPassword">Confirm Password</label>
               <input type="password" id="confirmPassword" />
-            </form>
+            </div>
+          </form>
+        </div>
+        <div class="bottom-container">
+          <button>Create Account</button>
+          <div class="login">
+            <p>Already have an account? <a href="#">Log in</a></p>
           </div>
         </div>
       </div>
