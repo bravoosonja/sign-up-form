@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 body {
@@ -15,21 +15,21 @@ body {
 }
 
 img {
+  position: relative;
   width: 45vw;
+  height: 100%;
 }
 
-/* doesn't work  */
-.company-name {
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-  opacity: 60%;
-  position: relative;
-  top: 20vh;
-  gap: 1vw;
-  padding: 15px 0;
+h1 span {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 43.5vw;
+  background-color: rgba(179, 147, 147, 0.7);
+  opacity: 70%;
+  padding: 15px;
   color: white;
-  justify-content: center;
-  align-items: center;
+  font-weight: 700;
 }
 
 .right {
@@ -38,9 +38,11 @@ img {
 }
 
 .text {
-  padding: 1.8em;
-  font-size: 2.5vh;
+  padding: 2em;
+  font-size: 2.3vh;
   width: 83%;
+  font-weight: 400;
+  color: gray;
 }
 
 .form-container {
