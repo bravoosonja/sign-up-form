@@ -81,6 +81,24 @@ input {
   background-color: #f8f9fa;
 }
 
+input:focus {
+  border: 1px solid #f4acb7;
+  border-radius: 7px;
+}
+
+input:invalid {
+  border: 2px solid rgb(252, 101, 176);
+  border-radius: 7px;
+}
+
+input:invalid + span::before {
+  content: "Invalid input";
+  color: rgb(252, 101, 176);
+  text-transform: none;
+  font-style: italic;
+  font-size: 1.3vh;
+}
+
 .bottom-container {
   padding: 2em;
 }
