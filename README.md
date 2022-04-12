@@ -18,9 +18,9 @@ This project includes these features:
 # Future plans
 - [ ] **CSS** Differentiate the error message for different inputs. For example, if passwords do not match, display "Passwords do not match"
 - [ ] **HTML** Include different forms of input validation such as pattern and mimum length.
-      ```html
+      ```
        <input type="password" id="psw" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
-       ```
+      ```
  
       
