@@ -5,7 +5,7 @@ This project includes these features:
 * image overlay
 * hover effects
 
-[Live Demo👉](http://bravoosonja/sign-up-form)
+[Live Demo👉](https://bravoosonja.github.io/sign-up-form/)
 
 ![demo](demo.jpg)
 # Skills used
