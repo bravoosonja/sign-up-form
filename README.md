@@ -1,5 +1,5 @@
 # Introduction
-The objective is to create a sign-up form for the Imaginary Service that can perform input validation using only pure CSS and HTML. 
+The objective is to create a sign-up form for the Imaginary Service that can perform input validation using only pure CSS and HTML. The layout is created by CSS flex.
 This project includes these features:
 * basic input validation without JavaScript
 * image overlay
